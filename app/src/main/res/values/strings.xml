@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NoQuake</string>
+    <string name="str_paired_devices" />
+    <string name="str_available_devices" />
+    <string name="todo" />
+    <string name="survival_guide" />
+    <string name="emergency_kit" />
+    <string name="contacts" />
+    <string name="call" />
+    <string name="incidents" />
+    <string name="sim" />
+    <string name="_90" />
+    <string name="telefon_numaras" />
+    <string name="s_l" />
+    <string name="g_vendeyim" />
+    <string name="str_menu_scan_devices" />
+    <string name="str_menu_search_devices" />
+    <string name="str_menu_bluetooth_on" />
+</resources>

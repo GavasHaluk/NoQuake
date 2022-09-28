@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA3232"
+    android:foregroundTint="#F8F1F1"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Quake">
+
+    <TextView
+        android:layout_width="396dp"
+        android:layout_height="60dp"
+        android:hint="Türkiyedeki Son 100 Deprem"
+        android:hyphenationFrequency="full"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorLink="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Tar"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/Yr"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/St"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#F6F1EE"
+        android:backgroundTint="#C7C2BE"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="#0E0E0E"
+        android:outlineSpotShadowColor="#070707">
+
+
+        <EditText
+            android:id="@+id/search_edit_text"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#000000"
+            android:drawableStart="@android:drawable/ic_menu_search"
+            android:drawableTint="#000000"
+            android:foregroundTint="#000000"
+            android:hint="Search"
+            android:inputType="textPersonName"
+            android:outlineAmbientShadowColor="#2F2F2F"
+            android:outlineSpotShadowColor="#070707"
+            android:textColorHighlight="#201D1D"
+            android:textColorLink="#000000"
+            android:visibility="visible"
+            tools:visibility="visible"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Bk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="379dp"
+        android:layout_height="510dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#C7C2BE"
+        android:fillViewport="true"
+        android:outlineAmbientShadowColor="#020202"
+        android:outlineSpotShadowColor="#000000">
+
+        <TextView
+            android:id="@+id/text_view_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#201D1D"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
